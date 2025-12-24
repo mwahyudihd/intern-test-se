@@ -16,10 +16,10 @@ void main() {
   if (number == 3) {
     stdout.writeln("=== Highest Palindrome Program ===");
     stdout.write("INPUT number: ");
-    int inputNumber = int.tryParse(stdin.readLineSync() ?? '') ?? 0;
+    String inputNumber = stdin.readLineSync() ?? '';
     stdout.write("OUTPUT: ");
     stdout.writeln(
-      Palindrome().highest(inputNumber, inputNumber.toString().length),
+      Palindrome().highest(inputNumber.length - 1, inputNumber),
     );
   } else if (number == 2) {
     stdout.writeln("=== Dense Rank Program ===");
