@@ -1,5 +1,5 @@
 class Sloane {
-  Sloane();
+  const Sloane();
 
   static String OEIS(int inputData) {
     List<String> result = [];
