@@ -20,7 +20,7 @@ To execute the code on your local machine:
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/mwahyudihd/intern-test-se.git](https://github.com/mwahyudihd/intern-test-se.git)
+   git clone https://github.com/mwahyudihd/intern-test-se.git
    ```
 
 2. Run Program:
