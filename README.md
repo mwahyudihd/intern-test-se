@@ -25,5 +25,5 @@ To execute the code on your local machine:
 
 2. Run Program:
     ```bash
-    dart problem.dart
+    dart main.dart
     ```
